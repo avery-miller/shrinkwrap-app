@@ -1,0 +1,129 @@
+/*
+    Color:
+    #083D77
+    #dbdbc8
+    #F4D35E
+    #EE964B
+    #F95738
+
+*/
+
+html {
+    font-size: 1em;
+}
+
+body {
+    background-color: #dbdbc8;
+    margin: 0;
+    padding: 0;
+    color: #083D77;
+    font-family: "Arimo", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    overflow-x: hidden;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    top: 0;
+    width: 100%;
+    left: 0;
+    position: fixed;
+    font-size: 0.8rem;
+    z-index: 10;
+}
+
+#header h1 {
+    text-align: center;
+    margin-right: 20px;
+    font-size: 1.2rem;
+}
+
+#header a {
+    text-decoration: none;
+    color: inherit;
+    display: inline;
+    cursor: default;
+    border-radius: 5px;
+}
+
+#header a:hover {
+    background-color: #dbdbc8;
+}
+
+#header nav {
+    margin: 0;
+    padding: 0;
+}
+
+#header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Horizontal on large screens */
+    justify-content: center; /* Center the items */
+}
+
+#header nav li {
+    margin: 0 5px; /* Reduced margin between items */
+}
+
+#header nav a {
+    text-decoration: none;
+    color: #083D77;
+    font-size: 0.9rem;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#header nav a:hover {
+    background-color: #dbdbc8;
+}
+
+#main {
+    text-align: center;
+    background-color: white;
+
+    margin-top: 7em;
+    padding: 10px;
+    left: 0px;
+    width: 100%;
+    position: absolute;
+}
+
+#main object {
+    margin-top: 0;
+}
+
+#main h4 {
+    margin: 0;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 600px) {
+    #header nav ul {
+        flex-direction: row; /* Keep it horizontal */
+        font-size: 0.7rem; /* Reduce font size */
+        padding: 5px; /* Reduce padding */
+        justify-content: center; /* Center the items */
+    }
+
+    #header nav li {
+        margin: 0 1px; /* VERY small margin between items */
+    }
+    
+    #header nav a {
+        padding: 2px 4px; /* Tiny padding */
+        font-size: 0.7rem; /* Reduce font size */
+    }
+}

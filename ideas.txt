@@ -1,0 +1,12 @@
+Requirements:
+
+Plans:
+
+make it more mobile friendly
+also add dark mode + dark mode svg in nav bar top thing
+
+
+What he wants delivered this quarter:
+Description of what it will do (in request for comment format):
+Diagram:
+SVG Logo: 
