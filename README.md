@@ -16,5 +16,3 @@ Flaggle presents users with an SVG image of a flag and prompts them to guess the
 * **CSS:** Styles the visual presentation of the game, including layout, colors, and fonts.
 * **JavaScript:** Implements the game logic, handles user input, updates the display, and manages the game flow.  This includes shuffling the order of flags, checking answers (including against synonyms), and managing the game state.
 * **SVG (Scalable Vector Graphics):** A core component of the project, SVGs are used to display the flags. SVGs were taken from https://github.com/lipis/flag-icons.
-
-## Project Structure (Example - Adapt as needed)
